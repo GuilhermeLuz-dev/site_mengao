@@ -11,7 +11,7 @@ header {
     width: 100%;
     background-color: #d2232a;
     color: #e2e2e2;
-    box-shadow: 0 5px 10px 0.3px #000;
+    box-shadow: 0 5px 10px 0.3px #000000bb;
 }
 
 header h1 {
@@ -30,7 +30,8 @@ a {
     margin: 0 auto;
 }
 
-.container h2 {
+.container h2,
+.container h3 {
     font-family: "Bungee", sans-serif;
 }
 
@@ -101,4 +102,73 @@ a {
     font-family: "Bungee", sans-serif;
     font-size: 30px;
     color: #363636;
+}
+
+/* Contact */
+
+#contact {
+    background-color: #d2232a;
+    box-shadow: 0 -5px 10px .1px #000000bb;
+    padding: 20px 0;
+}
+
+#contact h2,
+#contact h3 {
+    color: #e2e2e2;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.contacts_methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts_methods>div {
+    width: 30%;
+}
+
+.contacts_methods form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts_methods form textarea {
+    resize: none;
+    height: 80px;
+
+}
+
+.contacts_methods form button,
+.contacts_methods form textarea,
+.contacts_methods form input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    background-color: #e2e2e2;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+}
+
+.contacts_methods form button {
+    font-weight: bold;
+    background-color: rgb(17, 128, 17);
+    color: #e2e2e2;
+}
+
+.redes ul {
+    display: flex;
+}
+
+.redes ul li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.redes img {
+    width: 30px;
+}
+
+.adress {
+    color: #e2e2e2;
 }
