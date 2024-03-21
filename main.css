@@ -156,7 +156,8 @@ a {
     color: #e2e2e2;
     cursor: pointer;
 }
-.contacts_methods form button:hover{
+
+.contacts_methods form button:hover {
     background-color: rgb(24, 170, 24);
 
 }
@@ -176,4 +177,13 @@ a {
 
 .adress {
     color: #e2e2e2;
+}
+
+footer {
+    width: 100%;
+    background-color: #a5a3a3;
+    padding: 5px 30px;
+    font-family: "roboto", sans-serif;
+    display: flex;
+    justify-content: centergit;
 }
