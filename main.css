@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     font-family: "Bungee", sans-serif;
     position: fixed;
@@ -25,9 +29,14 @@ a {
 }
 
 .container {
-    max-width: 1180px;
+    max-width: 1090px;
     width: 100%;
     margin: 0 auto;
+    padding: 10px 0;
+}
+
+.container>img {
+    width: 500px;
 }
 
 .container h2,
@@ -64,6 +73,7 @@ a {
 #about .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #about .container div {
@@ -79,22 +89,57 @@ a {
     font-weight: bold;
     margin-bottom: 10px;
     color: #363636;
+    font-size: 19px;
+}
+
+/* achievements */
+
+#achievements {
+    padding: 20px 0;
+}
+
+#achievements .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#achievements .titles {
+    display: flex;
+    flex-direction: column;
+}
+
+#achievements h2 {
+    margin: 20px 0;
+    color: #d2232a;
+}
+
+#achievements .container>img {
+    height: 400px;
 }
 
 .titles ul {
-    display: flex
+    display: flex;
+    flex-direction: column;
+
 }
 
 .titles li {
     list-style: none;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     margin-right: 40px;
 }
 
-.titles img {
+.titles li span {
+    width: 80px;
+    text-align: center;
+}
+
+.titles ul li img {
+
     height: 70px;
+    margin-right: 20px;
 }
 
 .titles ul li p {
@@ -185,5 +230,5 @@ footer {
     padding: 5px 30px;
     font-family: "roboto", sans-serif;
     display: flex;
-    justify-content: centergit;
+    justify-content: center;
 }
